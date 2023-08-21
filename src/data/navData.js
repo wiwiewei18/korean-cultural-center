@@ -1,10 +1,19 @@
+import Facebook from "../assets/icons/Facebook";
+
 const navLinks = [
-  { text: "HOME", url: "#home" },
-  { text: "ABOUT", url: "#about" },
-  { text: "CLASSES", url: "#classes" },
-  { text: "CONTACT", url: "#contact" },
+  { text: "home", url: "#home" },
+  { text: "about", url: "#about" },
+  { text: "classes", url: "#classes" },
+  { text: "contact", url: "#contact" },
+];
+
+const socialLinks = [
+  { component: <Facebook />, url: "https://facebook.com" },
+  { component: <Facebook />, url: "https://facebook.com" },
+  { component: <Facebook />, url: "https://facebook.com" },
 ];
 
 export default {
   navLinks,
+  socialLinks,
 };

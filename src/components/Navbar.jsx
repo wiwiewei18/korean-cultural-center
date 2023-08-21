@@ -1,21 +1,20 @@
 import React from "react";
 import navData from "../data/navData";
-import Logo from "../assets/img/logo.png";
+import Logo from "./Logo";
 
 const Navbar = () => {
   return (
-    <header className="bg-primary">
+    <header className="bg-primary shadow-[0_4px_10px_0_#00000050]">
       <div className="w-[80%] mx-auto py-4 flex items-center justify-between">
-        <img
-          className="w-[150px] h-[45px] object-contain"
-          src={Logo}
-          alt="Logo"
-        />
+        <Logo />
         <nav>
           <ul className="flex gap-10">
             {navData.navLinks.map((navLink, index) => (
               <li key={index}>
-                <a className="text-white font-semibold" href={navLink.url}>
+                <a
+                  className="text-white font-semibold uppercase"
+                  href={navLink.url}
+                >
                   {navLink.text}
                 </a>
               </li>

@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         primary: "#3E84DA",
-        danger: "#E9B43A",
+        warning: "#E9B43A",
+        "dark-blue": "#093F82",
       },
       backgroundImage: {
         "gradient-229": "linear-gradient(229deg, var(--tw-gradient-stops))",

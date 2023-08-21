@@ -6,7 +6,7 @@ const Logo = () => {
     <img
       className="w-[150px] h-[45px] object-contain"
       src={LogoImage}
-      alt="Logo"
+      alt="Logo Batam Korean Cultural Center"
     />
   );
 };
