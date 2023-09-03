@@ -16,7 +16,7 @@
 }
 
 .slider {
-  width: 2000px;
+  width: max-content;
 }
 
 .slider-item,
@@ -28,7 +28,7 @@
   font-size: 20px;
   text-align: center;
   border-radius: 4px !important;
-  transition: all 0.2s linear;
+  transition: all 0.5s linear;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +46,7 @@
   color: #fff;
   border: none;
   outline: none;
-  transition: all 0.2s linear;
+  transition: all 0.5s linear;
 }
 
 /* indicators */
@@ -70,7 +70,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   text-indent: -9999px;
   cursor: pointer;
-  transition: all 0.2s linear;
+  transition: all 0.5s linear;
   border: 4px solid white;
 }
 
