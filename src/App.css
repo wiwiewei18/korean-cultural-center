@@ -7,3 +7,84 @@
 * {
   font-family: "Proza Libre", sans-serif;
 }
+
+.slider-wrapper {
+  width: 400px;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 4px !important;
+}
+
+.slider {
+  width: 2000px;
+}
+
+.slider-item,
+.hide {
+  float: left;
+  position: relative;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 4px !important;
+  transition: all 0.2s linear;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons-wrapper {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  background-size: 100%;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  outline: none;
+  transition: all 0.2s linear;
+}
+
+/* indicators */
+.indicators {
+  width: 400px;
+  position: absolute;
+  bottom: -4px;
+  z-index: 2 !important;
+  text-align: center;
+}
+
+.indicators li {
+  display: inline-block;
+  margin-right: 20px;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 185px;
+  border-radius: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-indent: -9999px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  border: 4px solid white;
+}
+
+.indicators li:last-child {
+  margin-right: 0;
+}
+
+.active-indicator {
+  background: #093f82 !important;
+  color: #fff !important;
+}
+
+@layer base {
+  body {
+    @apply bg-gradient-229 from-[#0F64CD] from-[12.50%] via-[#3E84DA] via-[36.46%] via-[#76AAEA] via-[70.83%] to-[#BEDBFF];
+  }
+}

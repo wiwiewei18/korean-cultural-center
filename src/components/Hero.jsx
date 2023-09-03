@@ -3,7 +3,7 @@ import AhnSihyung from "../assets/img/ahn_sihyung.png";
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-229 from-[#0F64CD] from-[12.50%] via-[#3E84DA] via-[36.46%] via-[#76AAEA] via-[70.83%] to-[#BEDBFF]">
+    <section>
       <div className="w-[80%] mx-auto grid grid-cols-2 pt-16">
         <img
           src={AhnSihyung}

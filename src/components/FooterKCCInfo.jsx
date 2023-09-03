@@ -11,7 +11,7 @@ const FooterKCCInfo = () => {
         Master Ahn Dong Kyun and Grand Master Park Eun Joo, we foster growth,
         creativity, and confidence.
       </p>
-      <div>
+      <div className="flex items-center gap-6">
         {navData.socialLinks.map((socialLink, index) => (
           <a key={index} href={socialLink.url}>
             {socialLink.component}

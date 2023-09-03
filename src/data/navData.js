@@ -1,4 +1,6 @@
 import Facebook from "../assets/icons/Facebook";
+import WhatsApp from "../assets/icons/WhatsApp";
+import Instagram from "../assets/icons/Instagram";
 
 const navLinks = [
   { text: "home", url: "#home" },
@@ -9,8 +11,8 @@ const navLinks = [
 
 const socialLinks = [
   { component: <Facebook />, url: "https://facebook.com" },
-  { component: <Facebook />, url: "https://facebook.com" },
-  { component: <Facebook />, url: "https://facebook.com" },
+  { component: <WhatsApp />, url: "https://whatsapp.com" },
+  { component: <Instagram />, url: "https://instagram.com" },
 ];
 
 export default {
