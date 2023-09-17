@@ -28,7 +28,7 @@ const AboutUs = () => {
           journey of growth and self-discovery.
         </p>
         <a
-          href="#"
+          href="/"
           className="hidden text-secondary text-lg font-bold bg-soft-blue rounded-[10px] p-2 px-10"
         >
           Learn More
