@@ -6,6 +6,7 @@
 
 * {
   font-family: "Proza Libre", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .slider-wrapper {

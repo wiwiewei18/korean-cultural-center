@@ -3,7 +3,7 @@ import WhatsApp from "../assets/icons/WhatsApp";
 import Instagram from "../assets/icons/Instagram";
 
 const navLinks = [
-  { text: "home", url: "#home" },
+  { text: "home", url: "/" },
   { text: "about", url: "#about" },
   { text: "classes", url: "#classes" },
   { text: "contact", url: "#contact" },

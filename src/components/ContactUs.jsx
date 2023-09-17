@@ -6,7 +6,7 @@ import Decoration from "../assets/img/footer-decoration.png";
 
 const AboutUs = () => {
   return (
-    <div className="py-16 w-[90%] mx-auto text-white">
+    <div className="py-16 w-[90%] mx-auto text-white" id="contact">
       <div className="space-y-12">
         <h2 className="text-4xl font-bold text-center">Contact Us</h2>
         <div className="border-8 border-white rounded flex">

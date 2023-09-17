@@ -2,7 +2,10 @@ import Slider from "./Slider";
 
 const AboutUs = () => {
   return (
-    <div className="py-16 w-[90%] mx-auto flex items-center text-white gap-24">
+    <div
+      className="py-16 w-[90%] mx-auto flex items-center text-white gap-24"
+      id="about"
+    >
       <Slider sliderWidth={400} sliderHeight={250} />
       <div className="space-y-12">
         <h2 className="text-4xl font-bold">About Us</h2>

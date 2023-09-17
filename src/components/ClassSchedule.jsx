@@ -4,7 +4,7 @@ import bg2 from "../assets/img/class-schedule-bg-2.svg";
 
 const ClassSchedule = () => {
   return (
-    <section className="bg-soft-blue py-16 relative">
+    <section className="bg-soft-blue py-16 relative" id="classes">
       <div className="w-4/5 mx-auto space-y-8">
         <h2 className="text-4xl text-secondary font-bold">Class Schedules</h2>
         <div className="space-y-6">
