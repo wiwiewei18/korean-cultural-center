@@ -10,6 +10,7 @@ const classSchedule = [
     title: "Elementary",
     age: "6 ~ 12 years old",
     times: [
+      "Monday & Thursday 15:00-16:00",
       "Monday & Thursday 16:10-17:10",
       "Tuesday & Friday 16:10-17:10",
       "Wednesday 16:10-17:10, Saturday 10:10-11:10",

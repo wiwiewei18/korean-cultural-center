@@ -27,7 +27,9 @@ const ClassScheduleList = () => {
                       <td className="font-semibold">
                         {index == 0 ? "Day & Time" : ""}
                       </td>
-                      <td>{index == 0 ? ":" : ""}</td>
+                      <td className="flex items-start">
+                        {index == 0 ? ":" : ""}
+                      </td>
                       <td>
                         {tkdclass.times.length > 1 ? (
                           <b>GROUP {index + 1} ] </b>
