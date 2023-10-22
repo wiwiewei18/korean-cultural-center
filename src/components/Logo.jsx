@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <a href="/">
       <img
-        className="w-[150px] h-[45px] object-contain"
+        className="w-[180px] h-[75px] object-contain"
         src={LogoImage}
         alt="Logo Batam Korean Cultural Center"
       />

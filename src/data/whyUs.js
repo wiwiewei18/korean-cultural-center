@@ -2,15 +2,13 @@ const whyUs = [
   {
     img: "/img/why-us-1.svg",
     title: "Expert Instructors",
-    desc: `Our team comprises a distinguished Grand Master Dan 5 from Korea and a group of skilled Black Belt Dan 3 Indonesian instructors.
-    Your child will learn from the best, gaining a solid foundation in
-    Taekwondo.`,
+    desc: `Our team comprises a distinguished Grand Master from Korea and a group of skilled Black Belt Indonesian instructors. Your child will learn from the best, gaining a solid foundation in Taekwondo.`,
   },
   {
     img: "/img/why-us-2.svg",
     title: "Foster Creativity",
     desc: `At our center, we believe in holistic development.
-    Our innovative teaching approach not only imparts self-defense skills but also nurtures your child's creativity through engaging activities and techniques.`,
+    Our innovative teaching approach not only imparts self-defense skills but also nurtures your child's creativity through engaging activities and techniques. Training through the use of various tools helps with height growth and brain development.`,
   },
   {
     img: "/img/why-us-3.svg",

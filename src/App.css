@@ -6,6 +6,7 @@
 
 * {
   font-family: "Proza Libre", sans-serif;
+  transition-duration: 0.5s;
   scroll-behavior: smooth;
 }
 
@@ -317,6 +318,14 @@ a.relative:hover::before {
     .pure-material-textfield-outlined > textarea + span::after {
       transition-duration: 0.1s;
     }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .buttons-wrapper {
+    width: 320px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 

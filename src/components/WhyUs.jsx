@@ -7,9 +7,9 @@ const WhyUs = () => {
         <h2 className="text-4xl text-secondary font-bold text-center">
           Why Choose Batam Korean Culture Center?
         </h2>
-        <ul className="space-y-16">
+        <div className="space-y-16">
           <WhyUsList />
-        </ul>
+        </div>
       </div>
     </section>
   );

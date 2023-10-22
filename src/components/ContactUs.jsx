@@ -4,19 +4,23 @@ import WA from "../assets/img/contact-us-wa.png";
 import IG from "../assets/img/contact-us-ig.png";
 import Decoration from "../assets/img/footer-decoration.png";
 
+import Flip from "react-reveal/Flip";
+
 const AboutUs = () => {
   return (
     <div className="py-16 w-[90%] mx-auto text-white" id="contact">
       <div className="space-y-12">
         <h2 className="text-4xl font-bold text-center">Contact Us</h2>
         <div className="border-8 border-white rounded flex">
-          <div className="w-[40%] bg-gradient-to-r from-85% from-soft-blue to-85% to-white flex flex-col items-start justify-between">
+          <div className="w-[40%] bg-gradient-to-r from-85% from-soft-blue to-85% to-white lg:flex hidden flex-col items-start justify-between">
             <div className="p-8 pt-14">
-              <img
-                src={Kyorugi}
-                alt="Taekwondo Sparring"
-                className="w-full object-cover"
-              />
+              <Flip right>
+                <img
+                  src={Kyorugi}
+                  alt="Taekwondo Sparring"
+                  className="w-full object-cover"
+                />
+              </Flip>
               <div className="space-y-4 mt-6">
                 <div className="flex items-center gap-2">
                   <img src={WA} alt="Taekwondo WhatsApp" />
@@ -42,14 +46,14 @@ const AboutUs = () => {
             </div>
             <img src={Decoration} alt="Decoration" />
           </div>
-          <div className="w-[60%] bg-white py-8 pr-16 pl-2">
+          <div className="lg:w-[60%] bg-white py-8 lg:pr-16 lg:pl-2 md:px-8 px-4 lg:text-left text-center">
             <h2 className="text-3xl text-dark-blue font-bold mb-4">
               Start Your Taekwondo Adventure!
             </h2>
             <p className="text-black text-lg">
               Enrich your child's growth and development through our
               all-inclusive Taekwondo program, priced at just
-              <b>IDR 800,000 per month</b>
+              <b> IDR 800,000 per month</b>
               , covering elementary, secondary, and kindergarten classes.
               <br />
               <br />
@@ -62,27 +66,27 @@ const AboutUs = () => {
                 <h4 className="text-black font-bold text-sm mt-6 mb-3">
                   Guardian’s Information
                 </h4>
-                <div className="grid grid-cols-2 gap-x-6 gap-y-2">
+                <div className="md:grid grid-cols-2 gap-x-6 gap-y-2">
                   <div>
-                    <label class="pure-material-textfield-outlined w-full">
+                    <label className="pure-material-textfield-outlined w-full">
                       <input required placeholder=" " />
                       <span>Name</span>
                     </label>
                   </div>
                   <div>
-                    <label class="pure-material-textfield-outlined w-full">
+                    <label className="pure-material-textfield-outlined w-full">
                       <input required placeholder=" " />
                       <span>Relation with Student</span>
                     </label>
                   </div>
                   <div>
-                    <label class="pure-material-textfield-outlined w-full">
+                    <label className="pure-material-textfield-outlined w-full">
                       <input required placeholder=" " />
                       <span>Address</span>
                     </label>
                   </div>
                   <div>
-                    <label class="pure-material-textfield-outlined w-full">
+                    <label className="pure-material-textfield-outlined w-full">
                       <input required placeholder=" " />
                       <span>Phone / WA</span>
                     </label>
@@ -93,15 +97,15 @@ const AboutUs = () => {
                 <h4 className="text-black font-bold text-sm mt-5 mb-3">
                   Child Information
                 </h4>
-                <div className="grid grid-cols-2 gap-x-6 gap-y-2">
+                <div className="md:grid grid-cols-2 gap-x-6 gap-y-2">
                   <div>
-                    <label class="pure-material-textfield-outlined w-full">
+                    <label className="pure-material-textfield-outlined w-full">
                       <input required placeholder=" " />
                       <span>Name</span>
                     </label>
                   </div>
                   <div>
-                    <label class="pure-material-textfield-outlined w-full">
+                    <label className="pure-material-textfield-outlined w-full">
                       <input required placeholder=" " />
                       <span>Age</span>
                     </label>
@@ -114,7 +118,7 @@ const AboutUs = () => {
                 </h4>
                 <div className="gap-x-6 gap-y-2">
                   <div>
-                    <label class="pure-material-textfield-outlined w-full">
+                    <label className="pure-material-textfield-outlined w-full">
                       <textarea
                         required
                         placeholder=" "
