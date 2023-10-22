@@ -6,11 +6,8 @@ const ClassScheduleList = () => {
   return (
     <>
       {classScheduleData.map((tkdclass, index) => (
-        <Fade left>
-          <div
-            className="flex md:flex-nowrap flex-wrap items-center justify-center gap-4"
-            key={index}
-          >
+        <Fade left key={index}>
+          <div className="flex md:flex-nowrap flex-wrap items-center justify-center gap-4">
             <img
               src={tkdclass.img}
               alt="kindergarten"
