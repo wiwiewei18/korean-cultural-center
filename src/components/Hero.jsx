@@ -1,21 +1,20 @@
 import React from "react";
 import AhnSihyung from "../assets/img/ahn_sihyung.png";
 
-import Fade from "react-reveal/Fade";
-import Zoom from "react-reveal/Zoom";
+import { Fade, Zoom } from "react-awesome-reveal";
 
 const Hero = () => {
   return (
     <section>
       <div className="w-[80%] mx-auto lg:grid grid-cols-2 lg:pt-16 lg:p-0 py-24">
-        <Fade left>
+        <Fade direction="left">
           <img
             src={AhnSihyung}
             alt="Batam Korean Cultural Center Taekwondo"
             className="h-[500px] object-contain lg:block hidden"
           />
         </Fade>
-        <Zoom clear>
+        <Zoom direction="down">
           <div className="flex flex-col justify-center relative lg:text-left text-center">
             <h1 className="text-white text-3xl font-bold mb-8">
               Unlock Your Child's Potential with{" "}

@@ -6,14 +6,14 @@ import WhyUsCircle from "../assets/img/why-us-circle.svg";
 
 import whyUsData from "../data/whyUs";
 
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const WhyUsList = () => {
   return (
     <>
       {whyUsData.whyUs.map((point, index) => (
         <li className="flex md:even:flex-row-reverse md:gap-14" key={index}>
-          <Fade bottom>
+          <Fade direction="up">
             <div className="relative flex items-center justify-center">
               <img
                 src={WhyUsCircle}

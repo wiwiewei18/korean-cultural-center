@@ -4,7 +4,7 @@ import WA from "../assets/img/contact-us-wa.png";
 import IG from "../assets/img/contact-us-ig.png";
 import Decoration from "../assets/img/footer-decoration.png";
 
-import Flip from "react-reveal/Flip";
+import { Flip } from "react-awesome-reveal";
 
 const AboutUs = () => {
   return (
@@ -14,7 +14,7 @@ const AboutUs = () => {
         <div className="border-8 border-white rounded flex">
           <div className="w-[40%] bg-gradient-to-r from-85% from-soft-blue to-85% to-white lg:flex hidden flex-col items-start justify-between">
             <div className="p-8 pt-14">
-              <Flip right>
+              <Flip direction="vertical">
                 <img
                   src={Kyorugi}
                   alt="Taekwondo Sparring"

@@ -1,12 +1,12 @@
 import classScheduleData from "../data/classSchedule";
 
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const ClassScheduleList = () => {
   return (
     <>
       {classScheduleData.map((tkdclass, index) => (
-        <Fade left key={index}>
+        <Fade direction="left" key={index}>
           <div className="flex md:flex-nowrap flex-wrap items-center justify-center gap-4">
             <img
               src={tkdclass.img}
